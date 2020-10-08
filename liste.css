@@ -1,0 +1,65 @@
+body {
+color:black;
+background-color:white;
+background-image:url(67390208-vector-cute-baby-girl-seamless-pattern-elegant-baby-background-.jpg);
+margin : 0;
+	padding: 0;
+font-family: "ChildishFree",ChildishFree;
+	font-size: 200%;
+}
+
+@font-face {
+    font-family: 'ChildishFree';
+    src: url('ChildishFree.otf');
+}
+
+header {
+    background: no-repeat left/cover url(index.jpg);
+    display: flex;
+    height: 220px;
+    min-width: 220px;
+    align-items: center;
+    color: #fff;
+    text-shadow: #000 0 0 .2em;}
+
+table {
+  table-layout: fixed;
+  width: 100%;
+  border-collapse: collapse;
+}
+
+td, th {
+border: solid #6495ed;
+width: 50%;
+}
+
+th {
+  letter-spacing: 2px;
+}
+
+td {
+  letter-spacing: 1px;
+}
+
+tbody td {
+  text-align: center;
+}
+
+tfoot th {
+  text-align: right;
+}
+
+.Bouton {
+background-color: #ff6a19;
+border: none;
+color: white;
+padding: 15px;
+text-align: center;
+font-size: 16px;
+margin: 4px 2px;
+border-radius: 2rem;
+}
+
+.tableauf {
+font-size: 20px;
+}
